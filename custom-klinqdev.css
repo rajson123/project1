@@ -1,0 +1,1477 @@
+.actions-toolbar.social-btn.stackoverflow-login,.actions-toolbar.social-btn.twitter-login,.actions-toolbar.social-btn.github-login,.actions-toolbar.social-btn.amazon-login{
+    display: none;
+}
+.lof-social-login-widget.lof-social-login .icon-social{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.lof-social-login-widget .row{
+    margin-top: 15px;
+}
+
+/*for tooltip remove*/
+.field-tooltip.toggle {
+    display: none;
+}
+
+/*payment icon*/
+.payment-method-content .mf-div img.mf-img {
+    width: 60px;
+    height: auto;
+}
+
+div[name="shippingAddress.customer_reference"] {
+display: none;
+}
+
+/*for lable name change*/
+label { font-size: 0px; }
+
+div[name="shippingAddress.region_id"] label{
+    visibility: hidden;
+    position: relative;
+}
+div[name="shippingAddress.region_id"] label:after{
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content:'State/Governorate';
+}
+
+#checkout-step-payment .building_number {
+    visibility: hidden;
+    position: relative;
+    width: 116px;
+    display: inline-block;
+    }
+#checkout-step-payment .building_number:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Building number';
+}
+
+#checkout-step-payment .apartment_number {
+    visibility: hidden;
+    position: relative;
+    width: 86px;
+    display: inline-block;
+}
+#checkout-step-payment .apartment_number:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Flat Number';
+}
+
+#checkout-step-payment .block {
+    visibility: hidden;
+    position: relative;
+    width: 38px;
+    display: inline-block;
+    }
+#checkout-step-payment .block:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Block';
+}
+
+#checkout-step-payment .floor_number {
+    visibility: hidden;
+    position: relative;
+    width: 36px;
+    display: inline-block;
+    }
+#checkout-step-payment .floor_number:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Floor';
+}
+
+#checkout-step-payment .jeddah {
+    visibility: hidden;
+    position: relative;
+    width: 54px;
+    display: inline-block;
+    }
+#checkout-step-payment .jeddah:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Avenue';
+}
+
+#checkout-step-payment .notes {
+    visibility: hidden;
+    position: relative;
+    width: 40px;
+    display: inline-block;
+    }
+#checkout-step-payment .notes:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Notes';
+}
+
+.label.select-payment-method-text{
+    font-size: 16px;
+    margin-top: 15px;
+    display: block;
+    font-weight: 500;
+}
+
+.label.select-payment-method-text.jeddah {
+    font-weight: bold;
+}
+
+/* checkout filed text bold */
+
+div[name="shippingAddress.region_id"] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.firstname"] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.lastname"] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.telephone"] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.country_id"] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.city"] label{
+    font-weight: bold !important;
+}
+
+.field._required._error label.label {
+    font-weight: bold !important;
+}
+
+div[name=""] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.custom_attributes.block"] label{
+    font-weight: bold !important;
+}
+
+.field.street .label {
+    border: none;
+    font-weight: bold;
+}
+
+label[for="customer-email"] {
+    font-weight: bold !important;
+}
+
+/*remove MyFatoorah Payment Gateway*/
+.opc-payment .payment-methods .payment-method .payment-method-title .label {
+    display: none;
+}
+
+/*remove My billing and shipping address are the same*/
+.opc-payment .payment-methods .payment-method .payment-method-billing-address .field.choice {
+    display: none;
+}
+
+.opc-wrapper .step-title {
+    visibility: hidden;
+    position: relative;
+    margin-top: 6px;
+}
+
+.opc-wrapper .step-title:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content:'Shipping Address';
+}
+
+.towishlist.in-wishlist .fa-heart:before{color: #000; }
+
+/*wishlist Icon outline remove*/
+
+.product-info-main .product-add-form .actions button.in-wishlist:hover {
+    background: transparent;
+    color: transparent;
+    border-color: transparent;
+}
+.actions.action-add-to li {
+    list-style-type: none;
+
+}
+
+/* addtocard button */
+.products-grid .product-item-info button.action.tocart.primary.btn-cart {
+    opacity: 1;
+    visibility: visible;
+}
+
+.products-grid .product-item-info .tocart.btn-cart {
+    top: 115% !important;
+    left: 37% !important;
+    color: white !important;
+    line-height: 35px !important;
+    background-color: black !important;
+    padding: 0 30px !important;
+    border-radius: 0 !important;
+}
+
+.products-grid .product-item-info {
+    margin-bottom: 60px !important;
+}
+h5.product.name.product-item-name {
+    height: 35px;
+}
+
+/* for label */
+.product-item-info .product-top {
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.product-label {
+    position: initial !important;
+    width: 77px !important;
+    height: 30px !important;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    color: black !important;
+    background: white !important;
+    line-height: 30px !important;
+}
+
+/* checkpage hide ship method */
+
+.shipping-information {
+    visibility: hidden;
+}
+
+/* submenu dropdown brands */
+
+ul#mobile-menu-12-1 {
+    max-height: 500px;
+    overflow-x: auto;
+}
+
+/* 
+In My Account
+*/
+
+/* recent orders remove in My account */
+.block-dashboard-orders {
+    display: none;
+}
+
+/* remove billing address */
+.box.box-order-billing-address {
+    display: none;
+}
+
+/* remove order in MyFatoorah Payment Gateway */
+dl.payment-method {
+    display: none;
+}
+
+/* oreder details */
+.page-title-wrapper .container {
+    color: white;
+    font-weight: 500;
+}
+
+.page-title-wrapper span.label {
+    color: white;
+    font-weight: 500;
+} 
+
+.page-title-wrapper a.action.order {
+    color: white;
+    font-weight: 500;
+} 
+.page-title-wrapper a.action.print {
+    color: white;
+    font-weight: 500;
+}
+
+/* Invoice remove */
+.items.order-links a {
+    display: none;
+}
+::-webkit-scrollbar{
+    width: 10px;/*new block*/
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #1a1a1a;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #1a1a1a;
+    border-radius: 100px;
+} 
+
+/* remove Additional Address Entries section from down */
+
+.block.block-addresses-list.col-sm-6.col-xs-12 {
+    display: block !important;
+}
+.block.block-addresses-list {
+    display: none;
+}
+
+button.action.btn.btn-primary.add {
+    visibility: visible;
+} 
+button.action.primary.add {
+    visibility: hidden;
+}
+a.action.back {
+    visibility: hidden;
+} 
+
+
+/* cart product Image */
+.minicart-items .product > .product-image-container {
+    overflow: visible !important;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+}
+
+/* brand sub-menu divide in colomn */
+ul#mobile-menu-12-1 {
+    columns: 4;
+}
+
+/* payment method */
+label.label.select-payment-method-text {
+    color: #1a1a1a;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.payment-method-content button.action.primary.checkout {
+    width: 20% !important;
+    min-width: 150px !important;
+    font-size: 11px !important;
+    padding: 12px 20px !important;
+}
+
+/* use wallet credit */
+div#block-gift-card-discount .payment-option-title.field.choice {
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 0px !important;
+}
+
+.gift-credit-label span {
+    color: #5f5f5f;
+}
+
+/* for Wallet design */
+
+.block.block-gift-card button.action.action-check.primary {
+    padding: 0px 20px;
+    height: 36px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.block.block-gift-card .actions {
+    margin-top: 7%;
+    columns: 5;
+}
+
+@media (max-width: 320px){
+    .block.block-gift-card .actions {
+        columns: 4;
+    }
+}
+
+.block.block-gift-card strong.box-title {
+    text-transform: uppercase;
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1;
+    display: block;
+    margin-bottom: 28px;
+}
+
+.block.block-gift-card .block-title {
+    text-transform: uppercase;
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1;
+    display: block; 
+    margin-bottom: 28px;
+}
+
+.block.block-gift-card .box.box-information.col-mp.mp-6.mp-xs-12 {
+    position: relative;
+    right: 12px;
+}
+
+/* hide on chekout page */
+.payment-method-billing-address .billing-address-same-as-shipping-block.field.choice {
+    visibility: hidden;
+}
+
+/* checkout page */
+.payment-method-billing-address {
+    position: relative;
+    bottom: 29px;
+}
+
+h5.product-brand {
+    font-size: 17px;
+}
+
+
+/* payment method display */
+.box.box-order-billing-method dl.payment-method {
+    display: block !important;
+}
+
+/* create account label  */
+.fieldset > .field:not(.choice) {
+    margin-bottom: 15px;
+    text-align: initial;
+}
+/* create account button */
+.actions-toolbar.padding-top15 .col-sm-6.col-xs-12.margin-top15 a.action.btn.btn-default.btn-full.back {
+    display: none;
+}
+
+.actions-toolbar.padding-top15 .col-sm-6.col-xs-12.margin-top15 {
+    display: contents;
+}
+
+.actions-toolbar.padding-top15 .col-sm-6.col-xs-12.margin-top15 .btn-full {
+    width: 50%;
+}
+
+/* forgot password button */
+.form-password_forget .col-sm-6.col-xs-12.margin-top15 a.action.back {
+    display: none;
+}
+
+.form-password_forget .col-sm-6.col-xs-12.margin-top15 {
+    display: contents;
+}
+
+.form-password_forget .col-sm-6.col-xs-12.margin-top15 button.action.submit.btn.btn-primary.btn-full {
+    width: 50%;
+}
+
+.actions-toolbar.social-btn.stackoverflow-login,.actions-toolbar.social-btn.twitter-login,.actions-toolbar.social-btn.github-login,.actions-toolbar.social-btn.amazon-login{
+    display: none;
+}
+.lof-social-login-widget.lof-social-login .icon-social{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.lof-social-login-widget .row{
+    margin-top: 15px;
+}
+
+/*for tooltip remove*/
+.field-tooltip.toggle {
+    display: none;
+}
+
+/*payment icon*/
+.payment-method-content .mf-div img.mf-img {
+    width: 60px;
+    height: auto;
+}
+
+div[name="shippingAddress.customer_reference"] {
+display: none;
+}
+
+/*for lable name change*/
+label { font-size: 0px; }
+
+div[name="shippingAddress.region_id"] label{
+    visibility: hidden;
+    position: relative;
+}
+div[name="shippingAddress.region_id"] label:after{
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content:'State/Governorate';
+}
+
+#checkout-step-payment .building_number {
+    visibility: hidden;
+    position: relative;
+    width: 116px;
+    display: inline-block;
+    }
+#checkout-step-payment .building_number:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Building number';
+}
+
+#checkout-step-payment .apartment_number {
+    visibility: hidden;
+    position: relative;
+    width: 86px;
+    display: inline-block;
+}
+#checkout-step-payment .apartment_number:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Flat Number';
+}
+
+#checkout-step-payment .block {
+    visibility: hidden;
+    position: relative;
+    width: 38px;
+    display: inline-block;
+    }
+#checkout-step-payment .block:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Block';
+}
+
+#checkout-step-payment .floor_number {
+    visibility: hidden;
+    position: relative;
+    width: 36px;
+    display: inline-block;
+    }
+#checkout-step-payment .floor_number:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Floor';
+}
+
+#checkout-step-payment .jeddah {
+    visibility: hidden;
+    position: relative;
+    width: 54px;
+    display: inline-block;
+    }
+#checkout-step-payment .jeddah:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Avenue';
+}
+
+#checkout-step-payment .notes {
+    visibility: hidden;
+    position: relative;
+    width: 40px;
+    display: inline-block;
+    }
+#checkout-step-payment .notes:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Notes';
+}
+
+.label.select-payment-method-text{
+    font-size: 16px;
+    margin-top: 15px;
+    display: block;
+    font-weight: 500;
+}
+
+.label.select-payment-method-text.jeddah {
+    font-weight: bold;
+}
+
+/* checkout filed text bold */
+
+div[name="shippingAddress.region_id"] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.firstname"] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.lastname"] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.telephone"] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.country_id"] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.city"] label{
+    font-weight: bold !important;
+}
+
+.field._required._error label.label {
+    font-weight: bold !important;
+}
+
+div[name=""] label{
+    font-weight: bold !important;
+}
+
+div[name="shippingAddress.custom_attributes.block"] label{
+    font-weight: bold !important;
+}
+
+.field.street .label {
+    border: none;
+    font-weight: bold;
+}
+
+label[for="customer-email"] {
+    font-weight: bold !important;
+}
+
+/*remove MyFatoorah Payment Gateway*/
+.opc-payment .payment-methods .payment-method .payment-method-title .label {
+    display: none;
+}
+
+/*remove My billing and shipping address are the same*/
+.opc-payment .payment-methods .payment-method .payment-method-billing-address .field.choice {
+    display: none;
+}
+
+.opc-wrapper .step-title {
+    visibility: hidden;
+    position: relative;
+    margin-top: 6px;
+}
+
+.opc-wrapper .step-title:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content:'Shipping Address';
+}
+
+.towishlist.in-wishlist .fa-heart:before{color: #000; }
+
+/*wishlist Icon outline remove*/
+
+.product-info-main .product-add-form .actions button.in-wishlist:hover {
+    background: transparent;
+    color: transparent;
+    border-color: transparent;
+}
+.actions.action-add-to li {
+    list-style-type: none;
+
+}
+
+/* checkpage hide ship method */
+
+.shipping-information {
+    visibility: hidden;
+}
+
+/* submenu dropdown brands */
+
+ul#mobile-menu-12-1 {
+    max-height: 500px;
+    overflow-x: auto;
+}
+
+/* 
+In My Account
+*/
+
+/* recent orders remove in My account */
+.block-dashboard-orders {
+    display: none;
+}
+
+/* remove billing address */
+.box.box-order-billing-address {
+    display: none;
+}
+
+/* remove order in MyFatoorah Payment Gateway */
+dl.payment-method {
+    display: none;
+}
+
+/* oreder details */
+.page-title-wrapper .container {
+    color: white;
+    font-weight: 500;
+}
+
+.page-title-wrapper span.label {
+    color: white;
+    font-weight: 500;
+} 
+
+.page-title-wrapper a.action.order {
+    color: white;
+    font-weight: 500;
+} 
+.page-title-wrapper a.action.print {
+    color: white;
+    font-weight: 500;
+}
+
+/* Invoice remove */
+.items.order-links a {
+    display: none;
+}
+::-webkit-scrollbar{
+    width: 10px;/*new block*/
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #1a1a1a;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #1a1a1a;
+    border-radius: 100px;
+} 
+
+/* remove Additional Address Entries section from down */
+
+.block.block-addresses-list.col-sm-6.col-xs-12 {
+    display: block !important;
+}
+.block.block-addresses-list {
+    display: none;
+}
+
+button.action.btn.btn-primary.add {
+    visibility: visible;
+} 
+button.action.primary.add {
+    visibility: hidden;
+}
+a.action.back {
+    visibility: hidden;
+} 
+
+/* cart product Image */
+.minicart-items .product > .product-image-container {
+    overflow: visible !important;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+}
+
+/* brand sub-menu divide in colomn */
+ul#mobile-menu-12-1 {
+    columns: 4;
+}
+
+/* payment method */
+label.label.select-payment-method-text {
+    color: #1a1a1a;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.payment-method-content button.action.primary.checkout {
+    width: 20% !important;
+    min-width: 150px !important;
+    font-size: 11px !important;
+    padding: 12px 20px !important;
+}
+
+/* use wallet credit */
+div#block-gift-card-discount .payment-option-title.field.choice {
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 0px !important;
+}
+
+.gift-credit-label span {
+    color: #5f5f5f;
+}
+
+/* for Wallet design */
+
+.block.block-gift-card button.action.action-check.primary {
+    padding: 0px 20px;
+    height: 36px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.block.block-gift-card .actions {
+    margin-top: 7%;
+}
+
+.block.block-gift-card strong.box-title {
+    text-transform: uppercase;
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1;
+    display: block;
+    margin-bottom: 28px;
+}
+
+.block.block-gift-card .block-title {
+    text-transform: uppercase;
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1;
+    display: block; 
+    margin-bottom: 28px;
+}
+
+.block.block-gift-card .box.box-information.col-mp.mp-6.mp-xs-12 {
+    position: relative;
+    right: 10px;
+}
+
+/* hide on chekout page */
+.payment-method-billing-address .billing-address-same-as-shipping-block.field.choice {
+    visibility: hidden;
+}
+
+/* checkout page */
+.payment-method-billing-address {
+    position: relative;
+    bottom: 29px;
+}
+
+h5.product-brand {
+    font-size: 17px;
+}
+
+
+/* payment method display */
+.box.box-order-billing-method dl.payment-method {
+    display: block !important;
+}
+
+/* create account label  */
+.fieldset > .field:not(.choice) {
+    margin-bottom: 15px;
+    text-align: initial;
+}
+/* create account button */
+.actions-toolbar.padding-top15 .col-sm-6.col-xs-12.margin-top15 a.action.btn.btn-default.btn-full.back {
+    display: none;
+}
+
+.actions-toolbar.padding-top15 .col-sm-6.col-xs-12.margin-top15 {
+    display: contents;
+}
+
+.actions-toolbar.padding-top15 .col-sm-6.col-xs-12.margin-top15 .btn-full {
+    width: 50%;
+}
+
+/* forgot password button */
+.form-password_forget .col-sm-6.col-xs-12.margin-top15 a.action.back {
+    display: none;
+}
+
+.form-password_forget .col-sm-6.col-xs-12.margin-top15 {
+    display: contents;
+}
+
+.form-password_forget .col-sm-6.col-xs-12.margin-top15 button.action.submit.btn.btn-primary.btn-full {
+    width: 50%;
+}
+
+/* checkout page on remove */
+#opc-shipping_method .checkout-shipping-method .step-title {
+    display: none;
+}
+
+/* after placing order page */
+.checkout-success button.action.primary {
+    display: none;
+}
+
+.checkout-success p:nth-child(3) {
+    display: none;
+}
+
+/* cart page on state hide */
+div[name="shippingAddress.region_id"] label:after {
+    display: none;
+}
+
+/* remove on order details banner */
+.page-title-wrapper span.order-status {
+    display: none;
+}
+
+.page-title-wrapper .order-date {
+    display: none;
+}
+
+.page-title-wrapper .actions-toolbar.order-actions-toolbar {
+    display: none;
+}
+
+/* remove recently ordered on My account */
+.sidebar.sidebar-main.col-lg-3.col-md-3.col-sm-12.col-xs-12 .block.block-reorder {
+    display: none;
+}
+
+/* remove returns on My account */
+div#account-nav li:nth-child(6) {
+    display: none;
+}
+
+/* for footer */
+
+ul.list-icon li:nth-child(1) {
+    padding-left: 0 !important;
+}
+
+.row .col-lg-2.col-md-2.col-sm-6.col-xs-12 p:nth-child(4){
+    display: none;
+}
+
+.row .col-lg-2.col-md-2.col-sm-6.col-xs-12 p:nth-child(5) {
+    display: none;
+}
+.row .col-lg-2.col-md-2.col-sm-6.col-xs-12 p:nth-child(6) {
+    display: none;
+}
+
+/* responsive design for menu*/
+
+@media (max-width: 1199px){
+    .col-lg-8.col-xs-12.megamenu-content {
+        display: block;
+    }
+}
+
+@media (max-width: 1199px) {
+    .header:not(.header6):not(.header7) .nav-main-menu li:nth-child(4) {
+        display: none;
+    }
+}
+
+/* banner for small devices */
+@media (max-width: 1199px) {
+    .slider_mgs_carousel .owl-item .item-image {
+        min-height: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        background-size: contain !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .page-header-sliders {
+        height: auto !important;
+    }
+}
+
+/* Category images */
+@media (max-width: 768px) {
+    .panel-block-row.col-md-12.margin-bottom30.col-xs-12 .promobanner.zoom > a > img {
+        min-width: 50%;
+        width: 50px;
+        margin: auto;
+    }
+}
+
+/* checkout on bag icon alignment  */
+
+@media (max-width: 991px) {
+    .opc-estimated-wrapper .minicart-wrapper button.action.showcart > .counter.qty {
+        border-radius: 50% !important;
+        font-size: 12px !important;
+        min-width: 20px !important;
+        margin: 0 !important;
+    }
+}
+
+/* conformation page alignment */
+
+.checkout-onepage-success #maincontent {
+    min-height: auto;
+}
+
+/* checkout on Hide shipping method option  */
+
+form#co-shipping-method-form div#checkout-shipping-method-load {
+    display: none;
+}
+
+/* page loader */
+.loader {
+    display: flex;
+    justify-content: center;
+}
+
+/*  My account> dropdown> Remove my returns */
+.dropdown.dropdown-toplinks .dropdown-menu > ul.links > li:nth-child(4) {
+    display: none;
+}
+
+/* wishlist page */
+.products-grid.wishlist .actions-primary span.fa.fa-shopping-cart {
+    display: none;
+}
+
+.products-grid.wishlist .product-item-inner .field.comment-box {
+    display: none;
+}
+
+.products-grid.wishlist .product-item-info .box-tocart .field.qty {
+    display: none;
+}
+
+.products-grid.wishlist .product-item-info .box-tocart + .product-item-actions {
+    margin-top: -15% !important;
+    margin-left: 30% ;
+}
+
+.product-item-actions .btn {
+    height: 34px;
+    padding: 0px 8px;
+    margin-left: -14px;
+    font-size: 11px;
+    background-color: black;
+}
+
+@media (min-width: 320px) and (max-width: 499px)  {
+    .products-grid.wishlist ol.product-items.row {
+        columns: 2;
+    }
+}
+
+@media (min-width: 449px) and (max-width: 1199px)  {
+    a.btn-remove.action.delete {
+        margin-top: -8px;
+        margin-left: 19%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 450px)  {
+    a.btn-remove.action.delete {
+        margin-top: -8px;
+        margin-left: 62%;
+    }
+}
+
+/* products section> Best seller, new, sale and top rate */
+@media (max-width: 767px) {
+    .nav>li>a {
+        padding: 10px 9px !important;
+    }
+}
+
+/* homepage */
+.col-lg-4.col-md-4.col-sm-12.col-xs-12.margin-bottom30 {
+    display: none;
+}
+
+.product.details.product-item-details .product-item-inner .stock.unavailable {
+    display: none;
+}
+
+.product.product-item span.product-label.sold-out-label {
+    max-width: fit-content;
+}
+
+@media (max-width: 479px) {
+    .panel-block-row.col-md-12.margin-bottom30.col-xs-12 .promobanner.zoom > a > img {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer .middle-footer {
+        padding: 0px 0 !important;
+    }
+}
+
+/* wishlist Icon */
+button.action.towishlist i.pe-7s-like {
+    color: black;
+}
+
+/* addToCart button */
+/* .product.actions.product-item-actions button.action.tocart.primary.btn-cart {
+    background-color: black;
+    color: white;
+} */
+
+/* giftcode redeem button */
+
+
+.block.block-gift-card button.action.action-check.primary {
+    visibility: visible;
+}
+
+form#check-code-form button.action.action-redeem.primary {
+    display: block !important;
+    padding: 0px 13px;
+    height: 36px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+/* My wallet loader */
+.block.block-gift-card._block-content-loading .loader {
+    display: none;
+}
+
+/* logo center */
+
+.col-lg-8.col-xs-12.megamenu-content .tab-content {
+    /* position: relative !important;
+    display: flex;
+    align-items: flex-start; */
+    margin: 0 auto;
+    display: flex;
+    padding-right: 145px;/***changed header**/
+    justify-content: center;
+}
+
+/* Homepage searchbar */
+.search-open .header .search-form .form-search {
+    opacity: 1 !important;
+}
+
+/* payment method label */
+.opc-payment .payment-methods .payment-method .payment-method-title .label {
+    display: block !important;
+}
+
+/* CMS Page aligment issue */
+.cms-index-index #maincontent, .cms-page-view #maincontent{
+    width: 1200px;
+}
+
+/* contact-us page */
+.col-sm-6.col-xs-12.margin-bottom60 ul.list-icon li:nth-child(1) {
+    padding-left: 12% !important;
+}
+
+/* mobile menu */
+.col-lg-8.col-xs-12.megamenu-content .tab-content {
+    display: block !important;
+    margin: 0 auto;
+    padding-right: 0 !important;
+}
+
+/* sign-in page */
+.actions-toolbar.social-btn.facebook-login.col-lg-4.col-md-4.col-sm-12.col-xs-2 {
+    width: 50%;
+}
+.actions-toolbar.social-btn.google-login.col-lg-4.col-md-4.col-sm-12.col-xs-2 {
+    width: 50%;
+}
+
+input#pass::-ms-reveal {
+    display: none;
+}
+
+/* create account */
+.password-strength-meter{
+    padding: 0 !important;
+}
+
+@media (max-width: 390px) {
+    .actions-toolbar.padding-top15 .col-sm-6.col-xs-12.margin-top15 .btn-full {
+        width: 60%;
+    }
+}
+
+label.personal-name {
+    float: left;
+}
+.form-password_forget .col-sm-6.col-xs-12.margin-top15 button.action.submit.btn.btn-primary.btn-full {
+    width: 100% !important;
+}
+
+.form.form-create-account .lof-social-login h3, .block.block-customer-login .lof-social-login h3 {
+    z-index: 0 !important;
+}
+
+/* Homepage */
+
+.fullscreen-slider .owl-carousel .row, .fullscreen-slider .owl-carousel .item-image img, .fullscreen-slider .owl-carousel .item-image, .fullscreen-slider .owl-carousel div:not(.owl-controls):not(.slide-text) {
+    height: 100% !important;
+    padding-bottom: 4px;
+}
+
+.rimage.d-sm-none {
+    display: none;
+}
+
+img.rimage__img {
+    width: 100%;
+}
+
+.home-builder-block-id-1605962948aed7e05a-1.col-12 {
+    margin: 13px;
+    margin-top: 0px;
+}
+
+.promobox__border.absolute-stretch {
+    display: none;
+}
+
+.col-12.col-md-4.col-sm-4.col-xs-4.d-none.d-md-block {
+    padding-right: 0px;
+}
+
+.row.align-items-start.justify-content-center {
+    margin-right: 0px !important;
+}
+
+/* address */
+
+.box.box-billing-address.col-lg-6.col-md-6.col-sm-6.col-xs-12 {
+    display: none;
+}
+.box.box-address-billing {
+    display: none;
+}
+.payment-method-billing-address:nth-child(2) {
+    display: none;
+}
+
+/* otp */
+
+div#otpform .content {
+    color: black;
+    font-weight: 600;
+    padding-bottom: 5px !important;
+}
+.modal-footer {
+    padding: 10px !important; 
+    text-align: left !important;
+    line-height: 25px !important;
+}
+div#otpmobilenumber {
+    color: black;
+}
+.checkout-index-index .modal-popup .modal-content {
+    padding: 10px !important;
+}
+.modal-popup .modal-inner-wrap {
+    width: 40% !important;
+}
+.modal-footer button {
+    color: white;
+    background: black;
+    border-radius: 15px;
+    padding: 0 20px !important;
+}
+
+/* newproduct sidebar */
+.block.widget.block-new-products-list .block-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    position: relative;
+    display: block;
+    padding: 0 0 2px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.block.widget.block-new-products-list .block-title:after {
+    height: 2px;
+    width: 60px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    background-color: #222;
+    left: 0;
+}
+.block-content button.action.tocart.primary {
+    display: none;
+}
+
+/* new product homepage */
+
+button.action.tocart.primary.product-new {
+    background-color: black;
+    color: white;
+    padding: 3px 24px !important;
+    margin-bottom: 14px;
+}
+.product-details-new-image {
+    padding-bottom: 15px;
+}
+.product-image.new {
+    margin-left: -14px;
+    margin-right: -14px;
+}
+
+/* samll device addtocart button */
+
+@media (max-width: 767px) {
+    .owl-stage button.action.tocart.primary.btn-cart {
+        top: 98% !important;
+        left: 78px !important;
+        width: auto;
+        height: 40px;
+        padding: 0 25px !important;
+    }
+
+    .products-grid .product-item-info .tocart.btn-cart {
+        padding: 0px 30px !important;
+        width: auto !important;
+        height: 40px !important;
+    }
+    .products-grid .product-item-info .tocart.btn-cart .text {
+        display: contents !important;
+    }
+}
+
+.pe-7s-shopbag:before {
+    display: none;
+}
+
+/* homepage silder samlldevice */
+@media (max-width: 479px) {
+    .block.widget.mgs-products.attribute-products-grid.products-grid.row.slider-1-row .owl-item {
+        width: 8% !important;
+    }
+
+    .category-product-category-tab .owl-item {
+        width: 6% !important;
+    }
+}
+
+/* listing page */
+@media (max-width: 991px) {
+    .block.widget.block-new-products-list {
+        display: none;
+    }
+}
+
+
+/* notify button */
+
+.products-grid .product-item-info:hover .product.alert.stock a {
+    opacity: 1 !important;
+    top: 100% !important;
+}
+
+.products-grid .product-item-info .product.alert.stock a {
+    position: absolute;
+    opacity: 1 !important;
+    top: 100% !important;
+    left: 33% !important;
+    z-index: 3;
+    color: #222;
+    line-height: 40px;
+    white-space: nowrap;
+    background-color: #fff;
+    padding: 0 25px;
+    text-align: center;
+    border: none;
+    opacity: 0;
+    visibility: visible !important;
+    border-radius: 0 !important;
+}
+.products-grid .product-item-info .product-top:hover a.photo::after {
+    opacity: 0 !important;
+}
+.product-top .product-image-photo.img-thumbnail {
+    margin: 0 !important;
+}
+
+/* logo  */
+.header .logo-header .logo img {
+    width: 100%;
+}
+.col-md-4.col-sm-6.col-xs-12:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1199px) {
+    .col-md-4.col-sm-6.col-xs-12 .col-md-4.col-sm-4.logo-header {
+        display: none;
+    }
+}
+   
+/* responsive homepage */
+
+.col-lg-12.col-md-12 {
+    padding-top: 15px;
+}
+
+
+/*update this css  1459---- .*/
+.address-otp-modal .modal-inner-wrap{
+max-width: 450px !important;
+background-color: #fff;
+width: 100% !important;
+padding: 20px 15px 30px 15px;
+}
+.address-otp-modal .button{
+border: solid 0px #000;
+padding: 5px 26px !important;
+border-radius: 138px !important;
+margin-right: 10px;
+}
+.address-otp-modal .resendbutton{
+border: solid 0px #000;
+padding: 5px 26px !important;
+border-radius: 138px !important;
+margin-right: 10px;
+}
